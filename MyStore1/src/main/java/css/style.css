@@ -1,0 +1,53 @@
+.search-box{
+    -fx-background-color:#FFFFFF;
+    -fx-background-radius: 100;
+}
+
+.transparent{
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.search-button{
+    -fx-background-color: #828282;
+    -fx-background-radius: 30;
+}
+
+.right-bar{
+    -fx-background-color: #D3D3D3;
+}
+
+.shadow{
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);
+}
+
+.add-btn{
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 100;
+}
+
+.chosen-component{
+	-fx-background-color: #828282;
+	-fx-background-radius: 30;
+}
+
+.menu-button{
+	-fx-background-color: #828282;
+    -fx-background-radius: 30;
+}
+
+.menu-container{
+	-fx-background-color: #D3D3D3;
+}
+
+.item-display{
+	-fx-background-color: #FFFFFF;
+	-fx-background-radius: 30;
+}
+
+.order-details-card{
+	-fx-background-color: #C3C3C3;
+	-fx-background-radius: 30;
+	-fx-border-color: #FFFFFF;
+	-fx-border-width: 3px 3px 3px 3px;
+	-fx-border-radius: 30;
+}

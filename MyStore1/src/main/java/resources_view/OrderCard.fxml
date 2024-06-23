@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMousePressed="#click" prefHeight="100.0" prefWidth="600.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.OrderCardController">
+   <children>
+      <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="600.0">
+         <children>
+            <AnchorPane prefHeight="100.0" prefWidth="100.0" stylesheets="@../css/style.css">
+               <children>
+                  <Label fx:id="idLabel" alignment="CENTER" layoutX="19.0" layoutY="28.0" prefHeight="30.0" prefWidth="62.0" text="1">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <VBox prefHeight="100.0" prefWidth="400.0">
+               <children>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="33.0" prefWidth="400.0" />
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="34.0" prefWidth="400.0">
+                     <children>
+                        <Label fx:id="productListLabel" prefHeight="34.0" prefWidth="388.0" text="Label">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="33.0" prefWidth="400.0" />
+               </children>
+            </VBox>
+            <AnchorPane prefHeight="100.0" prefWidth="100.0">
+               <children>
+                  <ImageView fx:id="firstProductImage" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+   </children>
+   <styleClass>
+      <String fx:value="shadow" />
+      <String fx:value="order-details-card" />
+   </styleClass>
+</AnchorPane>
